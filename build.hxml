@@ -1,0 +1,7 @@
+-main OppoCore
+-cp src
+-lib KengSDK
+-lib openfl
+-lib lime
+-lib zygameui
+-js oppo.js

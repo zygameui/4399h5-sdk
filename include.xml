@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<source path='src'/>
+
+	<haxedef name="game4399"/>
+
+	<!-- 禁止API访问 -->
+	<haxedef name="unapi"/>
+	<haxedef name="unkengsdk"/>
+
+	<haxedef name="html5import"/>
+
+
+	<!-- 主入口文件 -->
+	<template path="index.html"/>
+
+	<!-- 登录通用页面 -->
+	<assets path="4399login" rename="4399login" />
+
+	<!-- KengSDK类绑定 -->
+	<!-- <set name="KENGSDK_INIT_CLASS" value="oppo.OppoInit"/> -->
+	<!-- <set name="BANNER_AD_CLASS" value="oppo.OppoBanner"/> -->
+	<set name="VIDEO_AD_CLASS" value="ad.GameH5Video"/>
+	<!-- <set name="PAY_CLASS" value="oppo.OppoPay"/> -->
+	<!-- <set name="AD_CLASS" value="oppo.OppoAd"/> -->
+	<!-- <set name="RANK_CLASS" value="oppo.Rank"/> -->
+
+</project>
